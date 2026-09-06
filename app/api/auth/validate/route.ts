@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { jwtVerify } from 'jose';
 import { sql } from '../../../utils/supabase';
+export const dynamic = 'force-dynamic';
 
 const JWT_SECRET = process.env.JWT_SECRET || 'resqbed_secret_key';
 const secretKey = new TextEncoder().encode(JWT_SECRET);
