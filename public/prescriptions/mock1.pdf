@@ -1,0 +1,47 @@
+%PDF-1.4
+1 0 obj
+<</Type /Catalog /Pages 2 0 R>>
+endobj
+2 0 obj
+<</Type /Pages /Kids [3 0 R] /Count 1>>
+endobj
+3 0 obj
+<</Type /Page /Parent 2 0 R /Resources 4 0 R /MediaBox [0 0 500 800] /Contents 6 0 R>>
+endobj
+4 0 obj
+<</Font <</F1 5 0 R>>>>
+endobj
+5 0 obj
+<</Type /Font /Subtype /Type1 /BaseFont /Helvetica>>
+endobj
+6 0 obj
+<</Length 44>>
+stream
+BT /F1 24 Tf 175 700 Td (Prescription) Tj ET
+BT /F1 14 Tf 50 650 Td (Patient: John Doe) Tj ET
+BT /F1 14 Tf 50 630 Td (Age: 45) Tj ET
+BT /F1 14 Tf 50 610 Td (Gender: Male) Tj ET
+BT /F1 14 Tf 50 570 Td (Diagnosis: Cardiac Issue) Tj ET
+BT /F1 14 Tf 50 530 Td (Medications:) Tj ET
+BT /F1 12 Tf 70 510 Td (1. Atenolol 50mg - Once daily) Tj ET
+BT /F1 12 Tf 70 490 Td (2. Aspirin 75mg - Once daily) Tj ET
+BT /F1 12 Tf 70 470 Td (3. Simvastatin 20mg - At night) Tj ET
+BT /F1 14 Tf 50 430 Td (Notes: Refer to cardiac specialist) Tj ET
+BT /F1 12 Tf 350 350 Td (Dr. Rajiv Kumar) Tj ET
+BT /F1 10 Tf 350 335 Td (City Hospital, Patna) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f
+0000000009 00000 n
+0000000056 00000 n
+0000000111 00000 n
+0000000212 00000 n
+0000000250 00000 n
+0000000317 00000 n
+trailer
+<</Size 7/Root 1 0 R>>
+startxref
+800
+%%EOF 
