@@ -3,7 +3,11 @@ import bcrypt from 'bcryptjs';
 import { SignJWT } from 'jose';
 import { sql } from '../../../utils/supabase';
 
-const JWT_SECRET = process.env.JWT_SECRET || 'tap2bed_secret_key';
+// Ensures the GET (hospital list) below always runs fresh instead of being
+// statically cached at build/deploy time.
+export const dynamic = 'force-dynamic';
+
+const JWT_SECRET = process.env.JWT_SECRET || 'resqbed_secret_key';
 const secretKey = new TextEncoder().encode(JWT_SECRET);
 
 export async function POST(request: NextRequest) {

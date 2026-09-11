@@ -1,7 +1,10 @@
 {
-  "/login/page": "app/login/page.js",
   "/page": "app/page.js",
   "/hospital/dashboard/page": "app/hospital/dashboard/page.js",
+  "/login/page": "app/login/page.js",
   "/login/doctor/page": "app/login/doctor/page.js",
-  "/doctor/dashboard/page": "app/doctor/dashboard/page.js"
+  "/api/auth/validate/route": "app/api/auth/validate/route.js",
+  "/api/register/hospital/route": "app/api/register/hospital/route.js",
+  "/doctor/dashboard/page": "app/doctor/dashboard/page.js",
+  "/api/referrals/route": "app/api/referrals/route.js"
 }

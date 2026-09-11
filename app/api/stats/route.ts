@@ -1,6 +1,11 @@
 import { NextResponse } from 'next/server';
 import { sql } from '../../utils/supabase';
 
+// Ensures this route always runs fresh on every request instead of being
+// statically cached at build/deploy time (it has no dynamic request data,
+// so Next.js would otherwise be tempted to cache it).
+export const dynamic = 'force-dynamic';
+
 // Public endpoint — no auth. Returns aggregate stats plus a per-hospital
 // breakdown, for the unauthenticated stats screen.
 export async function GET() {

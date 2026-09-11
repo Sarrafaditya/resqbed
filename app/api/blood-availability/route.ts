@@ -2,6 +2,10 @@ import { NextRequest, NextResponse } from 'next/server';
 import { jwtVerify } from 'jose';
 import { sql } from '../../utils/supabase';
 
+// Ensures this route always runs fresh on every request instead of being
+// statically cached at build/deploy time.
+export const dynamic = 'force-dynamic';
+
 const JWT_SECRET = process.env.JWT_SECRET || 'resqbed_secret_key';
 const secretKey = new TextEncoder().encode(JWT_SECRET);
 
